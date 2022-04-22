@@ -31,7 +31,7 @@ public class JobData {
 
         // load data, if not already loaded
         loadData();
-
+        System.out.println(allJobs);
         ArrayList<String> values = new ArrayList<>();
 
         for (HashMap<String, String> row : allJobs) {
