@@ -127,7 +127,6 @@ public class TechJobs {
             String info = "";
                     System.out.println("\n*****");
 
-//            System.out.println("L1");
             for (Map.Entry<String, String> jobColumn : job.entrySet()) {
                 info = jobColumn.getKey() + ": " + jobColumn.getValue();
             System.out.println(info);
